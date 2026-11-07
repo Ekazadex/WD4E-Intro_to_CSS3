@@ -45,7 +45,7 @@ li {
 h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', serif;
-    color: #ffffff; /* Kontras tinggi pada background header #1e3a8a */
+    color: #ffffff;
     margin: 0;
 }
 
@@ -54,7 +54,7 @@ p {
     line-height: 1.8;
 }
 
-/* Penyesuaian link navigasi agar kontras tinggi & terbaca */
+/* Navigation links styling for high contrast */
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -63,4 +63,14 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+/* Footer links styling to ensure full WAVE contrast compliance */
+footer a {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #bfdbfe;
 }
