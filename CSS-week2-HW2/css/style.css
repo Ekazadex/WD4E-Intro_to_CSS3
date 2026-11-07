@@ -1,0 +1,76 @@
+/* Step 3: body tag - modify font-family and font-size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #222222;
+}
+
+/* Step 4: header tag - modify background-color */
+header {
+    background-color: #1e3a8a;
+    padding: 20px;
+}
+
+/* Step 5: nav tag - modify background-color */
+nav {
+    background-color: #2563eb;
+    padding: 10px;
+}
+
+/* Step 6: main tag - modify background-color and font-size */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Step 7: footer tag - modify background-color */
+footer {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Step 8: li tag - modify display and width */
+li {
+    display: inline-block;
+    width: 120px;
+}
+
+/* Step 9: h1 tag - modify text-align, font-family, and color */
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Step 10: p tag - modify line-height */
+p {
+    line-height: 1.8;
+}
+
+/* Navigation links styling for high contrast */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer links styling to ensure full WAVE contrast compliance */
+footer a {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #bfdbfe;
+}
